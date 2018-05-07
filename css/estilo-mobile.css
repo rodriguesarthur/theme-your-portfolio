@@ -1,0 +1,85 @@
+@media only screen and (max-width: 768px) {
+
+	header #menu {
+		display: none;
+	}
+
+	header.open-menu #menu-mobile {
+		display: block;
+		z-index: 10;
+	}
+
+	header.open-menu #btn-bars i {
+		transform: rotate(90deg);
+		transition: 0.5s;
+	}
+
+	header.open-menu #mask-mobile {
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 200px;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 9;
+	}
+
+	header #btn-bars {
+		display: block;
+		width: 40px;
+		height: 40px;
+		background-color: transparent;
+		outline: none;
+		border: none;
+		margin-right: 20px;
+    	margin-top: 20px;
+	}
+
+	header #btn-bars i {
+		font-size: 2em;
+		color: #fff;
+	}
+
+	#menu-mobile {
+		width: 100%;
+		height: 120px;
+		background-color: #384C63;
+		position: fixed;
+		top: 80px;
+		left: 0;
+	}
+
+	#menu-mobile ul {
+		list-style-type: none;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	#menu-mobile ul li {
+		margin-bottom: 10px;
+	}
+
+	#menu-mobile ul li a {
+	font-size: 18px;
+	text-decoration: none;
+	font-family: 'FjallaOne';
+	color: #fff;
+	}
+
+	section #banner h2 {
+		font-size: 15px;
+	}
+
+	section #portfolio img {
+		margin-bottom: 10px;
+	}
+
+	footer ul li {
+		margin-bottom: 20px;
+	}
+
+	footer li.page-up {
+	display: inline-block!important;
+}
+
+}
