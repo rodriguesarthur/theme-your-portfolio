@@ -74,8 +74,16 @@
 		margin-bottom: 10px;
 	}
 
+	#portfolio .owl-carousel {
+		left: 8%;
+	}
+
+	#portfolio .owl-dots {
+		left: -20%;
+	}
+
 	#portfolio img.img-mini {
-		width: 40%!important;
+		width: 80%!important;
 	}
 
 	footer ul li {
@@ -83,7 +91,11 @@
 	}
 
 	footer li.page-up {
-	display: inline-block!important;
-}
+		display: inline-block!important;
+	}
+
+	#box-btn-up {
+		display: none!important;
+	}
 
 }
