@@ -14,23 +14,6 @@ $(document).ready(function(){
 		}, 1000);
 	});
 
-	$('.news-portfolio').owlCarousel({
-	    loop:true,
-	    margin:10,
-	    nav:false,
-	    responsive:{
-	        0:{
-	            items:2
-	        },
-	        900:{
-	            items:3
-	        },
-	        1000:{
-	            items:5
-	        }
-	    }
-	})
-
 	$("header h1").click(function(){
 		$("html").animate({scrollTop: 0}, 1000);
 	});

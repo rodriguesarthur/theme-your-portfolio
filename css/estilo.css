@@ -111,6 +111,16 @@ header #btn-bars {
 	margin-bottom: 80px;
 }
 
+#portfolio .news-portfolio {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#portfolio .news-portfolio img.img-mini {
+	width: 60%;
+	cursor: pointer;
+}
+
 #portfolio h1 {
 	color: #fff;
 	font-size: 50px;
@@ -135,20 +145,11 @@ header #btn-bars {
     color: #fff;
 }
 
-#portfolio .news-portfolio {
-	margin-top: 30px;
-}
-
 
 #portfolio img#img-large {
 	width: 70%;
 	margin-bottom: 50px;
 	padding-top: 80px;
-}
-
-#portfolio img.img-mini {
-	width: 80%;
-	cursor: pointer;
 }
 
 /*#portfolio .news-portfolio img:hover {

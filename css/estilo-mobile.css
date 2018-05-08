@@ -74,16 +74,8 @@
 		margin-bottom: 10px;
 	}
 
-	#portfolio .owl-carousel {
-		left: 8%;
-	}
-
-	#portfolio .owl-dots {
-		left: -20%;
-	}
-
 	#portfolio img.img-mini {
-		width: 80%!important;
+		width: 40%!important;
 	}
 
 	footer ul li {
