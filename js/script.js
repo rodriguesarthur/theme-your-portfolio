@@ -45,12 +45,24 @@ $(document).ready(function(){
 		alert("Mensagem enviada!");
 	});
 
-	$("#portfolio img").on("mouseover", function(){
-		$(this).css("width","320px");
-	});
+	// $("#portfolio img").on("mouseover", function(){
+	// 	$(this).css("width","320px");
+	// });
 
-	$("#portfolio img").on("mouseout", function(){
-		$(this).css("width","300px");
+	// $("#portfolio img").on("mouseout", function(){
+	// 	$(this).css("width","300px");
+	// });
+
+	$("#portfolio .img-mini").click(function(){
+
+		var image = $(this).attr("src");
+
+		// console.log(image);
+		
+		$("#img-large").attr({
+			"src": image
+		});
+
 	});
 
 	$("#btn-bars").click(function(){

@@ -139,8 +139,16 @@ header #btn-bars {
 	margin-top: 30px;
 }
 
-#portfolio .news-portfolio img {
-	width: 300px;
+
+#portfolio img#img-large {
+	width: 70%;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#portfolio img.img-mini {
+	width: 80%;
+	cursor: pointer;
 }
 
 /*#portfolio .news-portfolio img:hover {

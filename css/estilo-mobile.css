@@ -70,8 +70,12 @@
 		font-size: 15px;
 	}
 
-	section #portfolio img {
+	section #portfolio .news-portfolio img {
 		margin-bottom: 10px;
+	}
+
+	#portfolio img.img-mini {
+		width: 40%!important;
 	}
 
 	footer ul li {
