@@ -97,10 +97,4 @@ $(document).ready(function(){
 		$('header').removeClass('open-menu');
 	});
 
-	$('#page-up').click(function(){
-		$('html, body').animate({
-			scrollTop: 0
-		}, 1000)
-	});
-
 });

@@ -82,12 +82,9 @@
 		margin-bottom: 20px;
 	}
 
-	footer li.page-up {
-		display: inline-block!important;
-	}
-
 	#box-btn-up {
-		display: none!important;
+		right: 20px;
+		bottom: 20px;
 	}
 
 }
