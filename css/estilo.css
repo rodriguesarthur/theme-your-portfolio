@@ -18,6 +18,7 @@ header h1 {
 	text-transform: uppercase;
 	margin-top: 25px;
 	font-family: 'FjallaOne';
+	cursor: pointer;
 }
 
 header h1:hover {
@@ -45,6 +46,7 @@ header #btn-bars {
 
 #menu li a {
 	color: #FFF;
+	cursor: pointer;
 }
 
 #menu li a:hover {
@@ -367,7 +369,7 @@ footer .footer-claro {
 	background-color: rgba(0, 0, 0, 0.3);
 	position: fixed;
 	bottom: -100px;
-	right: 50px;
+	right: 5%;
 	cursor: pointer;
 	text-align: center;
 	border-radius: 10px;
