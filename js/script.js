@@ -2,9 +2,9 @@ $(document).ready(function(){
 
 	$(window).scroll(function(){
 		if ($(document).scrollTop() > 300 ) {
-			$('#box-btn-up').css('display','block');
+			$('#box-btn-up').css('bottom', '30px');
 		} else {
-			$('#box-btn-up').css('display','none');
+			$('#box-btn-up').css('bottom','-100px');
 		};
 	});
 
